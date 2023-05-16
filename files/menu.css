@@ -1,0 +1,40 @@
+
+body {font-family: 'Roboto', sans-serif; background-color: black !important;}
+
+
+.logo {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.contact {
+	text-align: center;
+	padding-top: 50px;
+	color: #FFF;
+	font-size: 25px;
+}	
+
+.contact p {
+	font-size: 15px;font-family: 'Roboto', sans-serif;
+}
+
+body a {
+	color: white;
+}
+
+a:hover {color: white !important;}
+
+.btn-default {
+	background-color: #e7bb6a !important;
+	border-color: #e7bb6a !important;
+	padding: 20px !important;
+	width: 177px;
+	margin-bottom: 20px !important;
+}
+
+.btn-default:hover {
+    background-color: transparent !important;
+    border: 1px solid #e7bb6a !important;
+    color: #e7bb6a !important;
+ }
+

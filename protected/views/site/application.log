@@ -1,0 +1,326 @@
+2017/02/19 22:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-login.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2017/02/19 22:26:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-admin"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-admin')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-admin/
+HTTP_REFERER=http://laventanaweb.com.ar/wp-login.php
+---
+2017/02/19 22:26:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/19 22:27:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---
+2017/02/19 22:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "administrator"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/
+---
+2017/02/19 22:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "administrator/index.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/i...')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/index.php
+HTTP_REFERER=http://laventanaweb.com.ar/administrator/
+---
+2017/02/19 22:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-login.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2017/02/19 22:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-admin"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-admin')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-admin/
+HTTP_REFERER=http://laventanaweb.com.ar/wp-login.php
+---
+2017/02/19 22:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---
+2017/02/19 22:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "administrator"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/
+---
+2017/02/19 22:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "administrator/index.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator/i...')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/index.php
+HTTP_REFERER=http://laventanaweb.com.ar/administrator/
+---
+2017/02/19 22:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-login.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2017/02/19 22:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-admin"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-admin')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-admin/
+HTTP_REFERER=http://laventanaweb.com.ar/wp-login.php
+---
+2017/02/19 22:38:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---
+2017/02/19 22:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "shop/productos.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('shop/productos....')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/shop/productos.php
+---
+2017/02/19 23:24:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/19 23:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "wp-login.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2017/02/19 23:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "administrator"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('administrator')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/administrator/
+---
+2017/02/19 23:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "admin.php"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin.php')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin.php
+---
+2017/02/19 23:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/19 23:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/19 23:59:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 00:16:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "plantillas/pics/menus/menuEs.pdf"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('plantillas/pics...')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/plantillas/pics/menus/menuEs.pdf
+---
+2017/02/20 00:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.laventanaweb.com/pics/shows/aaaa.jpg
+---
+2017/02/20 00:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 01:08:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 01:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.laventanaweb.com/
+---
+2017/02/20 01:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 01:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 02:03:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "css/grabbing.png"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/grabbing.pn...')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/grabbing.png
+HTTP_REFERER=http://www.laventanaweb.com/css/owl.carousel.css
+---
+2017/02/20 02:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.laventanaweb.com/menu/Menu-es.pdf
+---
+2017/02/20 02:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://www.laventanaweb.com/menu/Menu-es.pdf
+---
+2017/02/20 03:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/02/20 03:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "favicon.ico"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/02/20 03:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "palpal_ipn".' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CController.php(270): CController->missingAction('palpal_ipn')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(282): CController->run('palpal_ipn')
+#2 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/palpal_ipn')
+#3 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/palpal_ipn
+---
+2017/02/20 03:23:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CController.php(270): CController->missingAction('images')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(282): CController->run('images')
+#2 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/images/fav...')
+#3 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/images/favicon.png
+---
+2017/02/20 03:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 03:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---
+2017/02/20 03:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "robots.txt"' in /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('robots.txt')
+#1 /home/laventana/domains/laventanaweb.com/public_html/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/laventana/domains/laventanaweb.com/public_html/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/robots.txt
+---

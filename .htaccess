@@ -1,0 +1,28 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+RewriteRule show/([a-zA-Z0-9_-]+)$ show.php?id=$1
+
+RewriteRule shop/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shop.php?id=$1
+RewriteRule shop/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shop.php?id=$1
+RewriteRule shopV2/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shop-v2.php?id=$2
+
+RewriteRule shopdeg/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shopdeg.php?id=$1
+RewriteRule shopdeg/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shopdeg.php?id=$1
+
+RewriteRule shopclases/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shopclases.php?id=$1
+RewriteRule shopclases/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ shopclases.php?id=$1
+
+RewriteRule ondemandPlay/([a-zA-Z0-9_-]+)$ ondemandPlay.php?id=$1
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+<ifModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: *
+</ifModule>

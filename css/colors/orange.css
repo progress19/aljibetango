@@ -1,0 +1,246 @@
+
+/* Text Colors */
+
+	.colored,
+	/*.nav-menu li a:hover,*/
+	/*.nav-menu li.active a,*/
+	.f-box:hover .f-icon i,
+	.team-members .member-details .member-position,
+	.prices .tables .active .price-table-top .price-circle p.price,
+	.prices .tables .active .price-table-top .price-circle p.timely,
+	.pricing-table:hover .price-table-top .price-circle p.price,
+	.pricing-table:hover .price-table-top .price-circle p.timely,
+	#site-socials .top-button:hover,
+	footer p.copyright a:hover,
+	.why-oxygen-accordion .accordion-toggle:hover,
+	ul.nav ul.dropdown-menu li a:hover{
+		color: #e67e22 ;
+	}
+
+/* Background Colors */
+
+	.colored-bg,
+	a.positive-m:hover,
+	.why-oxygen-accordion span.positive-s,
+	.prices .tables .active .table-inner a.price-buy-now,
+	.table-inner a.price-buy-now:hover,
+	.form-btn:hover,
+	#history ul.timeline li.note:hover,
+	#history ul.timeline li.note:hover:after,
+	.prices .tables .active a.price-table-img{
+		background-color:#e67e22 ;
+	}
+
+.boton-comprar {
+    padding: 12px 0 9px 0;
+    background: #E8BB6A none repeat scroll 0% 0% !important;
+    display: block;
+    width: 200px;
+    /*margin: 20px auto;*/
+    transition: all 0.3s ease 0s;
+    color: #000;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: 1px solid #E8BB6A;
+}
+
+.boton-comprar:hover {
+	background-color: #000;
+	color: #FFF;
+	border: 1px solid #333;
+}
+
+a.boton-reservar-form {
+    padding: 12px 0 9px 0;
+    background: #E8BB6A none repeat scroll 0% 0%;
+    display: block;
+    width: 200px;
+    /*margin: 20px auto;*/
+    transition: all 0.3s ease 0s;
+    color: #000;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: 1px solid #E8BB6A;
+}
+
+.boton-reservar-form:hover {
+	background-color: #000;
+	color: #FFF;
+	border: 1px solid #333;
+}
+
+a.boton-reservar {
+    padding: 12px 0 11px 0;
+    background: #2C2C2D none repeat scroll 0% 0%;
+    display: block;
+    /*margin: 20px auto;*/
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #E8BB6A;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+
+.boton-reservar:hover {
+	background-color: #000;
+	color: #FFF;
+	border: 1px solid #333;
+}
+
+a.boton-res {
+    padding: 5px 0 2px 0;
+    background: #2C2C2D none repeat scroll 0% 0%;
+    display: block;
+   /* width: 200px;*/
+    /*margin: 20px auto;*/
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: 1px solid #2C2C2D;
+    font-size: 12px !important;
+}
+
+span.boton-res {
+    padding: 5px 0 2px 0;
+    background: #2C2C2D none repeat scroll 0% 0%;
+    display: block;
+   /* width: 200px;*/
+    /*margin: 20px auto;*/
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: 1px solid #2C2C2D;
+    font-size: 12px !important;
+    cursor:default;
+}
+
+a.boton-res:hover {
+	background-color: #000;
+	color: #FFF;
+	border: 1px solid #333;
+}
+
+.boton:hover {
+	background-color: #111;
+	color: #FFF;
+}
+
+a.boton {
+    padding: 12px 0 9px 0;
+    background: #E8BB6A none repeat scroll 0% 0%;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    transition: all 0.3s ease 0s;
+    color: #000;
+    letter-spacing: 0.2em;
+}
+
+a.boton_reservar {
+    padding: 12px 0 10px 0;
+    background: #e7bb6a; none repeat scroll 0% 0%;
+    border-radius: 25px;
+    display: block;
+    /*width: 180px;*/
+    margin: 20px auto;
+    transition: all 0.3s ease 0s;
+    color: #333;
+    border: 1px solid #e7bb6a;
+    text-align: center;
+}
+
+a.boton_reservar:hover {
+    background-color: transparent;
+    border: 1px solid #e7bb6a;
+    color: #e7bb6a;
+ }
+
+
+.boton_contacto {
+    padding: 10px 30px 9px 30px;
+    background: #292929; none repeat scroll 0% 0%;
+    border-radius: 25px;
+    display: block;
+    /*width: 180px;*/
+    margin: 20px auto;
+    transition: all 0.3s ease 0s;
+    color: #bc924f;
+    border: 1px solid #292929;
+}
+
+.boton_contacto:hover {
+    background-color: transparent;
+    border: 1px solid #292929;
+    color: #292929;
+ }
+
+
+
+/* Border Colors */
+
+	.dark-nav .nav-menu li a:hover,
+	.form-btn:hover{
+		border-color:#875938 ;
+	}
+
+	.colored-border {
+		border-color:#FFF ;	
+	}
+
+	.nav-menu li.active a {
+		background-color: #d19b5d !important;
+		color: #333;
+	}
+
+	.nav-menu li a:hover {
+		background-color: #d19b5d !important;
+		color: #333;
+	}
+	
+	.nav li a:focus{
+		/*color:#fff;*/
+	}
+
+/* Border Colors ventana */
+/*
+	.dark-nav ,
+	.colored-border,
+	.form-btn:hover{
+		border-color:#FFF;
+	}
+	.nav-menu li a:hover,
+	.nav-menu li.active a,
+	.nav-menu li a:hover
+	{
+		border-color: #875938;
+	}
+
+	.active li {
+		color: #000 !important;
+	}
+
+	.nav-menu li.active a {
+		color: #000 !important;
+	}
+
+*/
+
+/* Border Right Colors */
+
+	.colored-border-right,
+	#history ul.timeline li.note:hover span.note-arrow,
+	#history ul.timeline li.note:hover span.note-arrow:after{
+		border-right-color: #e67e22 ; 
+	}
+
+/* Border Left Colors */
+
+	.colored-border-left,
+	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
+	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
+		border-left-color: #e67e22 ; 
+	}

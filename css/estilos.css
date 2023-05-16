@@ -1,0 +1,88 @@
+ @font-face{
+   font-family: 'futura_lt_btlight';
+   src: url('../fonts/futuralt.ttf');
+ }
+
+ body {
+  font-family: 'futura_lt_btlight',sans-serif;
+  font-size: 17px;
+ }
+
+.bordeCol1 {
+  border-style:solid;
+  border-width:1px;
+  padding-left: 10px;
+  line-height: 3;
+}
+
+.bordeColCen {
+  text-align: center;
+  border-style:solid;
+  border-width:1px;
+  line-height: 3;
+  
+}
+
+.centrado {
+  text-align: center;
+  font-family: 'futura_lt_btlight',sans-serif;
+  font-size: 17px;
+ letter-spacing: 1px;
+}
+
+.fondoNegro {
+  background-color: #000;
+  color: #FFF;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 10px;
+}
+
+.form-horizontal {
+   font-size: 16px;
+}
+
+.btn {
+  background-color: black;
+  color: #FFF;
+}
+
+a:hover { color: blue; } 
+
+
+.centrado13 {
+  text-align: center;
+  font-family: 'futura_lt_btlight',sans-serif;
+ letter-spacing: 1px;
+ font-size:13px;
+}
+
+.error {
+  font-size: 13px;
+}
+
+#mensaje {
+  font-size: 20px;
+}
+
+
+  .loader-suscripcion {
+    /*position: absolute;*/
+    width: 20px;
+    height:20px;
+    margin: -20px 0 0 -20px;
+    top:80%;
+    left:50%;
+    text-align:center;
+    /*background:#252525;*/
+    border-left:2px solid;
+    border-right:2px solid;
+    border-top:2px solid;
+    border-bottom:2px solid transparent !important;
+    border-radius: 200px;
+    border-color:#333 ; 
+  }
+
+  table.detail-view th {
+     width: 360px !important;
+}

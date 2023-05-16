@@ -1,0 +1,138 @@
+#mensaje svg { font-size: 30px; }
+
+.f {
+    background-image: url("../images/salon.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+/*    .f {height: auto;}*/
+}
+
+body, html {height: 100%;}
+
+.minh-100 {height: 100vh;}
+
+/* poll */
+
+.poll {
+  height: 100% !important;
+  width: 100% !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+}
+
+#conte-poll {
+    background-color: black;
+    padding: 50px 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #003b66;
+    opacity: 0.8;
+    /*width: 500px;*/
+    max-width: 400px;
+}
+
+ a.buttom_rate {
+    padding: 12px 15px 10px 15px;
+    border-radius: 25px;
+    display: block;
+    /*width: 180px;*/
+    margin: 5px auto;
+    transition: all 0.3s ease 0s;
+    color: #e7bb6a;
+    border: 2px solid #e7bb6a;
+    text-align: center;
+}
+
+a.buttom_rate:hover {
+    background-color: transparent;
+    color: #e7bb6a;
+}
+
+.displayNone {display: none;}
+
+#pollForm {
+    background-color: black;
+    padding: 40px 20px 20px;
+    text-align: center;
+    color: #003b66;
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
+    top: 40px;
+    /*position: absolute;*/
+    margin: 0 15px;
+    max-width: 430px;
+    width: 430px;
+    overflow: hidden;
+   }
+
+#pollForm .start {
+    margin: 25px 8px;
+    width: 45px;
+}
+
+.cortesy_conte, .quality_rate {
+    padding: 20px 0 26px;    
+} 
+
+#frmEncuesta input, #frmEncuesta textarea, #frmEncuesta select {
+      background-color: transparent;
+      color: #fff;
+      border-radius: 4px;
+      border: 1px solid white;
+      margin-bottom: 5px;
+      width: 100%;
+      padding: 5px;
+      margin-top: 10px;
+      font-size: 16px;
+}
+
+.no-padding {padding: 0 !important;}
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.counter_number {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.error {
+    text-align: left;
+    width: 100%;
+}
+
+.form {
+    margin-bottom: 8px;
+}
+
+.minHeight {min-height: 564px;}
+
+#conte-poll p {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.button_send {
+    padding: 12px 15px 10px 15px !important;
+    border-radius: 25px !important;
+    display: block !important;
+    width: 180px !important;
+    margin: 20px auto !important;
+    transition: all 0.3s ease 0s !important;
+    color: #e7bb6a !important;
+    border: 2px solid #e7bb6a !important;
+    text-align: center !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 8; /* Firefox */
+}
